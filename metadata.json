@@ -1,0 +1,6 @@
+{
+  "name": "Parashar Vedic Astrology",
+  "description": "High-precision Vedic and KP (Krishnamurti Paddhati) astrology suite with Placidus cusps, 4-fold significators, Ruling Planets, BTR, cuspal interlinks, Vimshottari Dasha, daily horoscopes, and Horary (Prashna) charts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

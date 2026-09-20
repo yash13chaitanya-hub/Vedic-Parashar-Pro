@@ -1,0 +1,58 @@
+export interface CityLocation {
+  city: string;
+  country: string;
+  latitude: number;
+  longitude: number;
+  timezone: number;
+}
+
+export const POPULAR_CITIES: CityLocation[] = [
+  { city: 'New Delhi', country: 'India', latitude: 28.6139, longitude: 77.2090, timezone: 5.5 },
+  { city: 'Varanasi (Kashi)', country: 'India', latitude: 25.3176, longitude: 82.9739, timezone: 5.5 },
+  { city: 'Prayagraj (Allahabad)', country: 'India', latitude: 25.4358, longitude: 81.8463, timezone: 5.5 },
+  { city: 'Haridwar', country: 'India', latitude: 29.9457, longitude: 78.1642, timezone: 5.5 },
+  { city: 'Rishikesh', country: 'India', latitude: 30.0869, longitude: 78.2676, timezone: 5.5 },
+  { city: 'Ujjain (Mahakal)', country: 'India', latitude: 23.1765, longitude: 75.7885, timezone: 5.5 },
+  { city: 'Ayodhya', country: 'India', latitude: 26.7922, longitude: 82.1998, timezone: 5.5 },
+  { city: 'Mathura', country: 'India', latitude: 27.4924, longitude: 77.6737, timezone: 5.5 },
+  { city: 'Mumbai', country: 'India', latitude: 19.0760, longitude: 72.8777, timezone: 5.5 },
+  { city: 'Bengaluru', country: 'India', latitude: 12.9716, longitude: 77.5946, timezone: 5.5 },
+  { city: 'Kolkata', country: 'India', latitude: 22.5726, longitude: 88.3639, timezone: 5.5 },
+  { city: 'Chennai', country: 'India', latitude: 13.0827, longitude: 80.2707, timezone: 5.5 },
+  { city: 'Hyderabad', country: 'India', latitude: 17.3850, longitude: 78.4867, timezone: 5.5 },
+  { city: 'Ahmedabad', country: 'India', latitude: 23.0225, longitude: 72.5714, timezone: 5.5 },
+  { city: 'Pune', country: 'India', latitude: 18.5204, longitude: 73.8567, timezone: 5.5 },
+  { city: 'Jaipur', country: 'India', latitude: 26.9124, longitude: 75.7873, timezone: 5.5 },
+  { city: 'Lucknow', country: 'India', latitude: 26.8467, longitude: 80.9462, timezone: 5.5 },
+  { city: 'Kanpur', country: 'India', latitude: 26.4499, longitude: 80.3319, timezone: 5.5 },
+  { city: 'Nagpur', country: 'India', latitude: 21.1458, longitude: 79.0882, timezone: 5.5 },
+  { city: 'Indore', country: 'India', latitude: 22.7196, longitude: 75.8577, timezone: 5.5 },
+  { city: 'Bhopal', country: 'India', latitude: 23.2599, longitude: 77.4126, timezone: 5.5 },
+  { city: 'Patna', country: 'India', latitude: 25.5941, longitude: 85.1376, timezone: 5.5 },
+  { city: 'Chandigarh', country: 'India', latitude: 30.7333, longitude: 76.7794, timezone: 5.5 },
+  { city: 'Dehradun', country: 'India', latitude: 30.3165, longitude: 78.0322, timezone: 5.5 },
+  { city: 'Amritsar', country: 'India', latitude: 31.6340, longitude: 74.8723, timezone: 5.5 },
+  { city: 'Surat', country: 'India', latitude: 21.1702, longitude: 72.8311, timezone: 5.5 },
+  { city: 'Vadodara', country: 'India', latitude: 22.3072, longitude: 73.1812, timezone: 5.5 },
+  { city: 'Coimbatore', country: 'India', latitude: 11.0168, longitude: 76.9558, timezone: 5.5 },
+  { city: 'Visakhapatnam', country: 'India', latitude: 17.6868, longitude: 83.2185, timezone: 5.5 },
+  { city: 'Bhubaneswar', country: 'India', latitude: 20.2961, longitude: 85.8245, timezone: 5.5 },
+  { city: 'Guwahati', country: 'India', latitude: 26.1445, longitude: 91.7362, timezone: 5.5 },
+  { city: 'Kathmandu', country: 'Nepal', latitude: 27.7172, longitude: 85.3240, timezone: 5.75 },
+  { city: 'London', country: 'United Kingdom', latitude: 51.5074, longitude: -0.1278, timezone: 0.0 },
+  { city: 'New York', country: 'United States', latitude: 40.7128, longitude: -74.0060, timezone: -5.0 },
+  { city: 'San Francisco', country: 'United States', latitude: 37.7749, longitude: -122.4194, timezone: -8.0 },
+  { city: 'Los Angeles', country: 'United States', latitude: 34.0522, longitude: -118.2437, timezone: -8.0 },
+  { city: 'Chicago', country: 'United States', latitude: 41.8781, longitude: -87.6298, timezone: -6.0 },
+  { city: 'Dallas', country: 'United States', latitude: 32.7767, longitude: -96.7970, timezone: -6.0 },
+  { city: 'Houston', country: 'United States', latitude: 29.7604, longitude: -95.3698, timezone: -6.0 },
+  { city: 'Toronto', country: 'Canada', latitude: 43.6532, longitude: -79.3832, timezone: -5.0 },
+  { city: 'Vancouver', country: 'Canada', latitude: 49.2827, longitude: -123.1207, timezone: -8.0 },
+  { city: 'Dubai', country: 'United Arab Emirates', latitude: 25.2048, longitude: 55.2708, timezone: 4.0 },
+  { city: 'Singapore', country: 'Singapore', latitude: 1.3521, longitude: 103.8198, timezone: 8.0 },
+  { city: 'Sydney', country: 'Australia', latitude: -33.8688, longitude: 151.2093, timezone: 10.0 },
+  { city: 'Melbourne', country: 'Australia', latitude: -37.8136, longitude: 144.9631, timezone: 10.0 },
+  { city: 'Tokyo', country: 'Japan', latitude: 35.6762, longitude: 139.6503, timezone: 9.0 },
+  { city: 'Berlin', country: 'Germany', latitude: 52.5200, longitude: 13.4050, timezone: 1.0 },
+  { city: 'Paris', country: 'France', latitude: 48.8566, longitude: 2.3522, timezone: 1.0 },
+];
